@@ -1,0 +1,29 @@
+DirectoryIndex index.php index.html
+
+ErrorDocument 403 /403.php
+ErrorDocument 404 /404.php
+ErrorDocument 500 /500.php
+
+# Rewrite rules
+<IfModule mod_rewrite.c>
+RewriteEngine On
+#RewriteBase /
+
+RewriteCond   %{REQUEST_FILENAME} !-f
+RewriteRule ^(s|S)itemap.xml$ index.php?location=sitemap-xml [L]
+
+RewriteCond   %{REQUEST_FILENAME} !-f
+RewriteRule ^forum(.*)$ modules/phpbb/phpBB3$1 [L]
+
+RewriteCond   %{REQUEST_FILENAME} !-f
+RewriteCond   %{REQUEST_FILENAME} !-d
+RewriteRule ^([^\.\?]+)\.html$ index.php?location=$1 [L]
+
+RewriteCond   %{REQUEST_FILENAME} !-f
+RewriteCond   %{REQUEST_FILENAME} !-d
+RewriteRule ^([^\.\?]+)\.html&sess=([a-f0-9]{32})$ index.php?location=$1&sess=$2 [L]
+
+RewriteCond   %{REQUEST_FILENAME} !-f
+RewriteCond   %{REQUEST_FILENAME} !-d
+RewriteRule ^([^\.\?]+)$ index.php?location=$1 [L]
+</IfModule>
