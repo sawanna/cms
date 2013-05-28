@@ -1,0 +1,106 @@
+#gallery-form .form_item, #image-form .form_item, #settings-form .form_item, #update-images-form .form_item
+{
+padding: 5px 10px;
+}
+#gallery-form .form_title, #image-form .form_title, #settings-form .form_title, #update-images-form .form_title
+{
+font-weight: bold;
+font-size: 12px;
+margin: 4px 0px;
+}
+#gallery-form .form_description, #image-form .form_description, #settings-form .form_description, #update-images-form .form_description
+{
+font-size: 11px;
+font-style: italic;
+margin: 2px;
+}
+#gallery-form select, #gallery-form input, #image-form select, #image-form input, #update-images-form select
+{
+width: 200px;
+}
+#gallery-form #submit, #gallery-form .checkbox, #image-form #submit, #image-form .checkbox, #update-images-form #submit
+{
+width: auto;
+}
+#gallery-form h3
+{
+font-size: 16px;
+font-style: italic;
+font-weight: normal;
+margin: 10px;
+}
+#galleries-list, #images-list
+{
+width: 620px;
+padding: 10px;
+}
+#galleries-list select, #images-list select
+{
+width: 200px;
+}
+#galleries-list #forms-language, #images-list #galleries-form
+{
+margin: 20px 0px;
+}
+#galleries-list .form_title, #images-list .form_title
+{
+font-size: 12px;
+font-weight: bold;
+margin: 10px 2px;
+}
+#galleries-list .head, #images-list .head
+{
+border-bottom: 1px solid #000000;
+height: 30px;
+}
+.gallery-list-item, .images-list-item
+{
+clear: both;
+margin: 10px 0px;
+padding: 10px 5px;
+}
+.gallery-list-item .id, .images-list-item .id
+{
+float: left;
+width: 30px;
+height: 20px;
+font-size: 11px;
+font-weight: bold;
+border-right: 1px dotted #000000;
+padding: 2px;
+}
+.head .title, .head .image
+{
+height: 20px;
+padding: 2px;
+}
+.gallery-list-item .title, .images-list-item .image
+{
+width: 350px;
+min-height: 30px;
+margin-left: 40px;
+font-size: 12px;
+}
+.gallery-list-item .btn, .images-list-item .btn
+{
+float: right;
+margin: 0px 10px;
+}
+* html .gallery-list-item .btn a, * html .images-list-item .btn a
+{
+width: 100px;
+text-align: center;
+}
+.images-list-item .gallery
+{
+font-weight: bold;
+}
+.images-list-item .preview
+{
+margin: 2px 0px;
+}
+.images-list-item .preview img
+{
+border: 1px solid #777777;
+padding: 1px;
+}

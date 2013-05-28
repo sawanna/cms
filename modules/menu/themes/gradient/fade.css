@@ -1,0 +1,140 @@
+ul.drop-down-menu-list
+{
+height: 61px;
+margin: 0px;
+margin-left: 250px;
+margin-top: -30px;
+padding: 0px;
+list-style: none;
+clear: both;
+}
+* html ul.drop-down-menu-list
+{
+position: relative;
+z-index: 9999999;
+}
+ul.drop-down-menu-list li
+{
+float: left;
+margin: 0px 1px;
+background: url('images/parent-menu.gif') no-repeat left top;
+padding-left: 27px;
+}
+ul.drop-down-menu-list a, ul.drop-down-menu-list li a:visited
+{
+display: block;
+height: 61px;
+line-height: 61px;
+margin: 0px;
+padding: 0px;
+text-decoration: none;
+background: url('images/parent-menu.gif') no-repeat right -244px;
+padding-right: 27px;
+}
+ul.drop-down-menu-list li a span
+{
+display: block;
+height: 61px;
+line-height: 61px;
+color: #ffffff;
+font-size: 16px;
+background: url('images/parent-menu.gif') repeat-x 0px -122px;
+cursor: pointer;
+white-space: nowrap;
+}
+* html ul.drop-down-menu-list li, * html ul.drop-down-menu-list a, * html ul.drop-down-menu-list li a:visited
+{
+color: #ffffff;
+width: 10px;
+}
+ul.drop-down-menu-list li.active, ul.drop-down-menu-list li.parent, ul.drop-down-menu-list li.hover
+{
+background: url('images/parent-menu.gif') no-repeat 0px -61px;
+}
+ul.drop-down-menu-list li.active a.active, ul.drop-down-menu-list li.parent a.parent, ul.drop-down-menu-list li a.hover, ul.drop-down-menu-list li.hover a.hover
+{
+text-decoration: none;
+background: url('images/parent-menu.gif') no-repeat right -305px;
+}
+ul.drop-down-menu-list li a.active span, ul.drop-down-menu-list li a.parent span, ul.drop-down-menu-list li a.hover span.hover, ul.drop-down-menu-list li.hover a.hover span.hover
+{
+background: url('images/parent-menu.gif') repeat-x 0px -183px;
+}
+ul.drop-down-menu-list li ul
+{
+position: absolute;
+z-index: 9999;
+list-style: none;
+display: none;
+border: 1px solid #999999;
+background-color: #312f30;
+margin: 0px;
+padding: 10px 0px;
+min-width: 200px;
+zoom: 1;
+border-radius: 10px;
+-moz-border-radius: 10px;
+}
+* html ul.drop-down-menu-list ul
+{
+margin-top: -115px;
+margin-left: -250px;
+}
+ul.drop-down-menu-list li ul li, ul.drop-down-menu-list li ul li.active, ul.drop-down-menu-list li ul li.hover
+{
+margin: 0px;
+padding: 0px 10px;
+width: 200px;
+height: auto;
+line-height: 30px;
+background: url('images/parent-menu.gif') repeat-x 0px -122px;
+border-bottom: 1px solid #434445;
+white-space: normal;
+vertical-align: bottom;
+float: none;
+display: block;
+}
+ul.drop-down-menu-list li ul li.hover
+{
+background: url('images/drop-bg.gif') repeat-x 0px 0px;
+}
+ul.drop-down-menu-list li ul li a, ul.drop-down-menu-list li ul li a:visited, ul.drop-down-menu-list li ul li.active a.active, ul.drop-down-menu-list li ul li a.hover
+{
+display: block !important;
+height: auto;
+line-height: 30px;
+background-image: none;
+font-size: 12px;
+color: #ffffff !important;
+padding-left: 0px;
+padding-right: 10px;
+}
+ul.drop-down-menu-list li ul li a span
+{
+height: 30px;
+line-height: 30px;
+background-image: none !important;
+}
+ul.drop-down-menu-list li ul li a span.hover
+{
+background-image: none !important;
+}
+ul.drop-down-menu-list li ul li a.hover
+{
+background-image: none !important;
+background-color: #228688;
+}
+* html ul.drop-down-menu-list li ul li.hover a.hover
+{
+background: none;
+}
+* html ul.drop-down-menu-list ul li, * html ul.drop-down-menu-list ul a, * html ul.drop-down-menu-list ul li a:visited
+{
+width: 200px;
+}
+ul.drop-down-menu-list li ul li ul
+{
+zoom: 1;
+margin-left: 200px;
+margin-top: -30px;
+}

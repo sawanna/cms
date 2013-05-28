@@ -1,0 +1,94 @@
+.nodes-list-block
+{
+margin-bottom: 20px;
+}
+.nodes-list-block h2.node-title
+{
+margin: 0px 0px 0px 10px;
+font-size: 1em;
+font-weight: normal;
+font-style: italic;
+}
+.nodes-list-block h2.node-title a:link, .nodes-list-block h2.node-title a:visited
+{
+font-size: 1em;
+text-decoration: none;
+}
+.nodes-list-block h2.node-title a:hover
+{
+text-decoration: underline;
+}
+.nodes-list-block .node
+{
+min-height: 100px;
+}
+.nodes-list-block .node p
+{
+margin: 0px;
+}
+.nodes-list-block div#content-component
+{
+margin: 0px;
+font-size: 1em !important;
+line-height: 20px;
+text-indent: 10px;
+}
+.nodes-list-block .node-date
+{
+font-size: .8em;
+margin: 12px 0px 10px 10px;
+white-space: nowrap;
+}
+.nodes-list-block .node-date label
+{
+float: left;
+font-weight: normal;
+margin-right: 5px;
+}
+.nodes-list-block .node-author
+{
+color: #18484e;
+font-size: 12px;
+margin-top: 20px;
+margin-left: 10px;
+white-space: nowrap;
+float: left;
+}
+.nodes-list-block .node-author label
+{
+float: left;
+color: #000000;
+font-weight: normal;
+margin-right: 5px;
+}
+.nodes-list-block .node-author div
+{
+float: right;
+}
+.nodes-list-separator
+{
+clear: both;
+height: 20px;
+}
+.nodes-list-block .thumbnail
+{
+margin: 0px 10px;
+}
+.nodes-list-block .thumbnail img
+{
+border: 1px solid #3f4a58;
+padding: 1px;
+}
+.nodes-list-block .read-more
+{
+clear: right;
+float: right;
+margin: 10px 0px;
+}
+.nodes-list-block .node-list-cap
+{
+width: 100%;
+margin: 0px 0px 2px 0px;
+padding: 0px;
+clear: both;
+}

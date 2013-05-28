@@ -1,0 +1,46 @@
+.sitemap-icon-block
+{
+position: absolute;
+z-index: 9;
+right: 10px;
+height: 20px;
+clear: both;
+margin: 2px;
+}
+a.sitemap
+{
+display: block;
+width: 20px;
+height: 20px;
+background: url('images/sitemap.png') no-repeat 0 0;
+float: right;
+}
+ul.sitemap
+{
+margin: 0px;
+padding: 0px;
+list-style: none;
+}
+ul.sitemap li
+{
+line-height: 20px;
+margin: 0px;
+padding: 5px 10px;
+border-left: 1px dotted #777777;
+border-bottom: 1px dotted #777777;
+}
+ul.sitemap li span
+{
+font-size: 14px;
+}
+ul.sitemap a
+{
+font-size: 14px;
+}
+h1.sitemap-title
+{
+font-size: 14px;
+margin: 0px;
+padding: 10px 0px;
+font-style: italic;
+}

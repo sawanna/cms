@@ -1,0 +1,22 @@
+ul.parent-menu-list,
+ul.child-menu-list
+{
+list-style-type: none;
+margin: 0px;
+padding: 0px;
+}
+ul.child-menu-list {
+margin-bottom: 20px;
+}
+ul.parent-menu-list li a:link, ul.parent-menu-list li a:visited,
+ul.child-menu-list li a:link, ul.child-menu-list li a:visited
+{
+display: block;
+padding: 5px 20px;
+margin: 0px;
+}
+ul.parent-menu-list li a:hover, ul.parent-menu-list li a.active,
+ul.child-menu-list li a:hover, ul.child-menu-list li a.active
+{
+text-decoration: none;
+}

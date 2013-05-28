@@ -1,0 +1,20 @@
+#settings-form .form_item
+{
+padding: 5px 10px;
+}
+#settings-form .form_title
+{
+font-weight: bold;
+font-size: 12px;
+margin: 4px 0px;
+}
+#settings-form .form_description
+{
+font-size: 11px;
+font-style: italic;
+margin: 2px;
+}
+#settings-freq-menu
+{
+width: 200px !important;
+}

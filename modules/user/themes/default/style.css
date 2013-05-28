@@ -1,0 +1,422 @@
+#user-form 
+{
+margin: 0px;
+padding: 0px;
+}
+* html #user-form
+{
+width: 400px;
+}
+#user-form .form_item, #group-form .form_item, #field-form .form_item, #messages-form .form_item
+{
+padding: 5px 10px;
+}
+#user-form .form_title, #group-form .form_title, #field-form .form_title, #messages-form .form_title
+{
+font-weight: bold;
+font-size: 12px;
+margin: 4px 0px;
+}
+#user-form .form_description, #group-form .form_description, #field-form .form_description, #messages-form .form_description
+{
+font-size: 11px;
+font-style: italic;
+margin: 2px;
+}
+#user-form select, #user-form input, #group-form input, #field-form input
+{
+width: 200px;
+}
+#user-form #submit, #user-form .checkbox
+{
+width: auto;
+}
+#user-form .checkbox
+{
+border: none;
+margin-left: 5px;
+}
+#user-form #submit
+{
+margin-top: 10px;
+}
+#user-form .photo_preview
+{
+margin: 5px 10px;
+}
+#user-form .photo_preview img
+{
+border: 1px solid #000000;
+padding: 1px;
+}
+#user-form .gender-block
+{
+clear: both;
+}
+#user-form .gender-block .gender-block-item, #user-form .gender-block .form-item, #user-form .gender-block .form_title, #user-form .gender-block .form_element, #user-form .gender-block .form_element input
+{
+float: left;
+height: 20px;
+line-height: 20px;
+}
+#user-form .gender-block .form_title label
+{
+height: 20px;
+line-height: 20px;
+font-weight: normal;
+font-style: italic;
+}
+#user-form .gender-block .gender-block-item
+{
+margin-right: 10px;
+margin-bottom: 10px;
+}
+#user-form .gender-cap
+{
+margin-left: 10px;
+font-weight: bold;
+}
+#user-form .gender-separator
+{
+clear: both;
+}
+.user-terms
+{
+width: auto;
+height: 200px;
+line-height: 20px;
+font-size: 13px;
+color: #000000;
+margin: 20px 10px;
+padding: 5px;
+border: 1px dotted #000000;
+background-color: #ffffff;
+overflow: scroll;
+}
+.user-terms-cap
+{
+font-size: 16px;
+margin: 0px 10px;
+}
+div.user_login_form
+{
+padding: 20px 0px;
+background: url('images/users.png') no-repeat 20px 5px;
+}
+div.user_login_form table
+{
+width: 100%;
+}
+div.user_login_form table td
+{
+padding: 5px;
+}
+div.user_login_form span.login
+{
+color: #220022;
+}
+div.user_login_form a.logout
+{
+color: #ff2200;
+}
+div.user_login_panel
+{
+width: 230px;
+margin: 20px 0px;
+}
+.leftbar div.user_login_panel
+{
+margin-left: 10px;
+}
+.rightbar div.user_login_panel
+{
+margin-right: 10px;
+}
+div.user_login_panel a, div.user_login_panel .title
+{
+color: #ffffff;
+}
+div.user_login_panel #panel-username
+{
+color: #e8fc05;
+font-size: 14px;
+}
+.user_login_panel-lt
+{
+height: 20px;
+background: url('images/user-panel-t.gif') no-repeat left top;
+padding-left: 20px;
+}
+.user_login_panel-rt
+{
+height: 20px;
+background: url('images/user-panel-t.gif') no-repeat right top;
+padding-right: 20px;
+}
+.user_login_panel-lb
+{
+height: 20px;
+background: url('images/user-panel-b.gif') no-repeat left bottom;
+padding-left: 20px;
+}
+.user_login_panel-rb
+{
+height: 20px;
+background: url('images/user-panel-b.gif') no-repeat right bottom;
+padding-right: 20px;
+}
+.user_login_panel-l
+{
+background: url('images/user-panel-bg.gif') repeat-y left top;
+padding-left: 20px;
+}
+.user_login_panel-r
+{
+background: url('images/user-panel-bg.gif') repeat-y right top;
+padding-right: 20px;
+}
+div.user_login_panel-body
+{
+margin: 0px 10px;
+zoom:1;
+}
+div.user_login_panel div
+{
+padding: 0px 10px;
+}
+div.user_login_panel div div
+{
+padding: 0px;
+}
+#user-panel .form_title
+{
+font-size: 12px;
+margin: 4px 0px;
+}
+#user-panel.form_description
+{
+font-size: 11px;
+font-style: italic;
+margin: 2px;
+}
+#user-panel input
+{
+width: 180px;
+}
+#user-panel #submit
+{
+width: 100px !important;
+}
+#user-panel #user_login_panel_show
+{
+float: left;
+}
+#user-panel #user_login_panel_show a
+{
+padding-left: 22px;
+background: url('images/users_ico.png') no-repeat 0 0;
+font-size: 16px;
+padding-bottom: 2px;
+}
+* html #user-panel #user_login_panel_show a
+{
+background: url('images/users_ico.gif') no-repeat 0 0;
+}
+#user-panel .show
+{
+height: 20px;
+line-height: 20px;
+}
+#user-panel .show a
+{
+white-space: nowrap !important;
+}
+.random-user, .user-online-block
+{
+width: 220px;
+margin: 20px 0px;
+overflow: hidden;
+}
+.leftbar .random-user, .leftbar .user-online-block
+{
+margin-left: 10px;
+}
+.rightbar .random-user, .rightbar .user-online-block
+{
+margin-right: 10px;
+}
+.user-online-block .user-online
+{
+float: left;
+margin: 5px;
+}
+.user-online-block .separator
+{
+height: 5px;
+border-top: 1px dotted #000000;
+}
+.random-user .user-name
+{
+text-align: center;
+font-size: 14px;
+color: #3f4a58;
+font-weight: bold;
+height: 30px;
+line-height: 30px;
+}
+.random-user .user-avatar
+{
+text-align: center;
+}
+.random-user .user-avatar img
+{
+width: 100px;
+border: 1px solid #3f4a58;
+padding: 1px;
+}
+.random-user .user-gender
+{
+text-align: center;
+font-size: 10px;
+}
+.random-user .user-profile-link
+{
+padding-top: 10px;
+}
+.random-user .user-profile-link a, .random-user .user-profile-link a:visited
+{
+display: block;
+text-align: center;
+font-weight: normal;
+text-decoration: none;
+font-size: 11px;
+color: #3f4a58;
+}
+.random-user .user-profile-link a:hover
+{
+font-size: 12px;
+font-weight: bold;
+}
+.user-profile
+{
+clear: both;
+}
+.user-profile h1
+{
+margin-left: 130px;
+font-size: 16px;
+color: #3f4a58;
+height: 30px;
+line-height: 30px;
+}
+.user-profile .user-avatar
+{
+float: left;
+margin-bottom: 20px;
+margin-left: 10px;
+}
+.user-profile .user-avatar img
+{
+width: 100px;
+border: 1px solid #3f4a58;
+padding: 1px;
+}
+.user-profile .user-joined, .user-profile .user-gender, .user-profile .user-activity
+{
+margin-left: 130px;
+font-size: 12px;
+padding-left: 2px;
+}
+.user-profile .user-extra
+{
+clear: both;
+padding: 20px;
+}
+.user-profile .user-extra-item
+{
+margin: 10px 0px;
+clear: both;
+padding: 10px 10px;
+}
+.user-profile .user-extra label
+{
+float: left;
+width: 200px;
+text-align: right;
+font-size: 14px;
+font-weight: bold;
+display: block;
+}
+.user-profile .user-extra .user-extra-val
+{
+font-size: 14px;
+font-style: italic;
+margin-left: 220px;
+}
+.user-profile .user-extra img
+{
+border: 1px dotted #3f4a58;
+padding: 1px;
+}
+.user-profile .user-extra p
+{
+margin: 0px;
+padding: 0px;
+}
+.user-profile .user-extra .mark
+{
+border-top: 1px dotted #3f4a58;
+border-bottom: 1px dotted #3f4a58;
+}
+.user-profile a
+{
+display: block;
+float: right;
+font-size: 14px;
+margin-right: 20px;
+}
+.users-list-item
+{
+clear: both;
+margin: 10px 0px;
+padding: 5px;
+height: 110px;
+}
+.users-list-item .user-info-name
+{
+font-weight: bold;
+font-size: 14px;
+color: #000000;
+margin-left: 120px;
+}
+.users-list-item .user-info-avatar
+{
+float: left;
+width: 100px;
+}
+.users-list-item .user-info-avatar img
+{
+border: 1px solid #3f4a58;
+padding: 1px;
+}
+.users-list-item .user-info-gender
+{
+font-size: 11px;
+margin-left: 120px;
+margin-top: 5px;
+font-style: italic;
+}
+.users-list-item .user-profile-btn
+{
+float: right;
+margin-right: 20px;
+margin-top: 20px;
+}
+.users-list-sep
+{
+clear: both;
+}
+.users-list-mark
+{
+background-color: #f8edce;
+}

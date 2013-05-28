@@ -1,0 +1,224 @@
+#user-form .form_item, #group-form .form_item, #field-form .form_item, #messages-form .form_item, #user-search-form .form_item
+{
+padding: 5px 10px;
+}
+#user-form .form_title, #group-form .form_title, #field-form .form_title, #messages-form .form_title, #user-search-form .form_title
+{
+font-weight: bold;
+font-size: 12px;
+margin: 4px 0px;
+}
+#user-form .form_description, #group-form .form_description, #field-form .form_description, #messages-form .form_description, #user-search-form .form_description
+{
+font-size: 11px;
+font-style: italic;
+margin: 2px;
+}
+#user-form select, #user-form input, #group-form input, #field-form input
+{
+width: 200px;
+}
+#user-form #submit, #user-form .checkbox, #group-form #submit, #group-form .checkbox, #field-form #submit, #field-form .checkbox
+{
+width: auto;
+}
+#user-form .checkbox
+{
+border: none;
+margin-left: 5px;
+}
+#user-form #submit
+{
+margin-top: 20px;
+}
+#user-form .gender-block
+{
+clear: both;
+}
+#user-form .gender-block .gender-block-item, #user-form .gender-block .form-item, #user-form .gender-block .form_title, #user-form .gender-block .form_element, #user-form .gender-block .form_element input
+{
+float: left;
+height: 20px;
+line-height: 20px;
+}
+#user-form .gender-block .form_title label
+{
+height: 20px;
+line-height: 20px;
+font-weight: normal;
+font-style: italic;
+}
+#user-form .gender-block .gender-block-item
+{
+margin-right: 10px;
+margin-bottom: 10px;
+}
+#user-form .gender-cap
+{
+margin-left: 10px;
+font-weight: bold;
+}
+#user-form .gender-separator
+{
+clear: both;
+}
+#user-search-form .form_item
+{
+float: left;
+}
+#user-search-form .form_title
+{
+height: 20px;
+}
+#user-search-form
+{
+height: 100px;
+clear: both;
+}
+* html #user-search-form .form_item
+{
+width: 200px;
+}
+#users-list, #groups-list, #fields-list
+{
+width: 620px;
+padding: 10px;
+}
+#users-list .form_title, #groups-list .form_title, #fields-list .form_title
+{
+font-size: 12px;
+font-weight: bold;
+margin: 10px 2px;
+}
+#users-list .head, #groups-list .head, #fields-list .head
+{
+border-bottom: 1px solid #000000;
+height: 30px;
+}
+#users-list .head .user, #groups-list .head .group, #fields-list .head .group
+{
+height: 20px;
+line-height: 20px;
+}
+.users-list-item, .groups-list-item, .fields-list-item
+{
+clear: both;
+margin: 10px 0px;
+padding: 10px 5px;
+}
+#users-list .disabled, #groups-list .disabled
+{
+background-color: #f99d9d;
+}
+.users-list-item .id, .groups-list-item .id, .fields-list-item .id
+{
+float: left;
+width: 30px;
+height: 20px;
+font-size: 11px;
+font-weight: bold;
+border-right: 1px dotted #000000;
+padding: 2px;
+}
+.users-list-item .user, .groups-list-item .group, .fields-list-item .field
+{
+width: 350px;
+min-height: 30px;
+margin-left: 40px;
+font-size: 12px;
+}
+.users-list-item .btn, .groups-list-item .btn, .fields-list-item .btn
+{
+float: right;
+margin: 0px 10px;
+}
+* html .users-list-item .btn a, * html .groups-list-item .btn a, * html .fields-list-item .btn a
+{
+width: 100px;
+text-align: center;
+}
+.users-list-item .user-info label
+{
+font-style: italic;
+font-size: 11px;
+}
+.users-list-item .user-info .yes
+{
+color: green;
+}
+.users-list-item .user-info .no
+{
+color: red;
+}
+
+.group-permissions .module
+{
+font-size: 12px;
+font-weight: bold;
+padding: 5px 10px;
+text-align: left;
+}
+.group-permissions
+{
+width: 620px;
+margin: 0px;
+padding: 10px;
+}
+.group-permissions .form_item
+{
+clear: both;
+margin: 20px 0px;
+}
+.group-permissions .form_title
+{
+font-size: 12px;
+font-weight: bold;
+padding: 2px 5px;
+}
+.group-permissions .form_description
+{
+clear: both;
+font-size: 11px;
+font-style: italic;
+padding: 2px 5px;
+}
+.group-permissions .form_component_line
+{
+clear: both;
+}
+.group-permissions .form_component_line .form_title
+{
+float: left;
+width: 300px;
+line-height: 20px;
+border-bottom: 1px dotted #000000;
+}
+.group-permissions .separator
+{
+clear: both;
+}
+.group-permissions .wrapper
+{
+clear: both;
+border-bottom: 1px solid #000000;
+margin: 20px 0px;
+}
+.group-permissions #submit_element
+{
+margin-top: 20px;
+}
+.extra-fields-separator
+{
+height:10px;
+border-bottom: 1px solid #000000;
+margin-bottom: 20px;
+}
+.photo_preview
+{
+margin-left: 10px;
+}
+.photo_preview img
+{
+border: 1px solid #000000;
+padding: 1px;
+}

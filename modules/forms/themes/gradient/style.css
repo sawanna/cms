@@ -1,0 +1,126 @@
+.cform form
+{
+margin: 0px;
+padding: 0px;
+}
+.cform .form_item
+{
+padding: 5px 10px;
+clear: both;
+zoom: 1;
+}
+.cform .form_element
+{
+clear: both;
+}
+.cform .form_title
+{
+font-weight: bold;
+font-size: 12px;
+margin: 4px 0px;
+clear: both;
+}
+.cform .radio_title
+{
+font-size: 12px;
+clear: both;
+}
+.cform .form_description
+{
+font-size: 11px;
+font-style: italic;
+margin: 2px;
+clear: both;
+}
+* html textarea
+{
+width: 98% !important;
+}
+.cform-inline
+{
+float: left;
+}
+.cform-inline .form_item, .cform-inline .form_element, .cform-inline .form_title, .cform-inline .form_description
+{
+float: left;
+clear: none;
+height: 20px;
+line-height: 20px;
+margin: 2px 0px;
+}
+.cform-inline input
+{
+margin-left: 10px;
+margin-right: 5px;
+}
+div.cforms-widget-block
+{
+width: 220px;
+margin-bottom: 20px;
+padding-top: 10px;
+}
+div.cforms-node-block
+{
+margin-bottom: 20px;
+}
+.leftbar div.cforms-widget-block
+{
+margin: 20px 0px;
+margin-left: 10px;
+}
+.rightbar div.cforms-widget-block
+{
+margin: 20px 0px;
+margin-right: 10px;
+}
+.leftbar div.cforms-node-block
+{
+margin: 20px 0px;
+margin-left: 10px;
+}
+.rightbar div.cforms-node-block
+{
+margin: 20px 0px;
+margin-right: 10px;
+}
+ .leftbar input, .leftbar textarea, .rightbar input, .rightbar textarea
+ {
+ width: 130px !important;
+ }
+ * html  .leftbar input,  * html   .leftbar textarea,  * html   .rightbar input, .rightbar textarea
+ {
+  width: 120px !important;
+ }
+.cforms-widget-block .cform .form_element input, .cforms-widget-block .cform .form_element textarea
+{
+width: 150px !important;
+}
+* html .cforms-widget-block .cform .form_element input, * html  .cforms-widget-block .cform .form_element textarea
+{
+width: 140px !important;
+}
+.cforms-widget-block .cform .form_element #submit,.cforms-widget-block .cform .form_element .checkbox, .cforms-widget-block .cform .form_element .radio, .leftbar #submit, .leftbar .checkbox, .leftbar .radio, .rightbar #submit, .rightbar .checkbox, .rightbar .radio
+{
+width: auto !important;
+}
+.cforms-widget-block .cform-inline, .leftbar .cform-inline, .rightbar .cform-inline
+{
+clear: both;
+}
+* html .leftbar .cform-widget form, * html .rightbar .cform-widget form
+{
+width: 150px;
+overflow: hidden;
+}
+* html .cforms-widget-block form
+{
+width: 170px !important;
+overflow: hidden;
+}
+.cforms-node-block h2
+{
+font-size: 16px;
+font-weight: normal;
+font-style: italic;
+margin-left: 10px;
+}

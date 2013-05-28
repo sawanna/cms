@@ -1,0 +1,204 @@
+.parent-menu, .drop-down-menu
+{
+width: 100%;
+height: 61px;
+}
+* html .parent-menu, * html .drop-down-menu
+{
+height: 41px;
+}
+ul.menu-list
+{
+margin: 0px;
+padding: 0px;
+list-style-type: circle;
+list-style-position: inside;
+}
+ul.menu-list li
+{
+margin: 10px 10px;
+}
+ul.menu-list li a, ul.menu-list li a:visited
+{
+color: #228688;
+font-size: 12px;
+text-decoration: none;
+}
+ul.menu-list li a.active
+{
+color: #000000;
+}
+ul.menu-list li a:hover
+{
+color: #000000;
+text-decoration: underline;
+}
+/************ Parent menu ***************/
+ul.parent-menu-list
+{
+height: 61px;
+margin: 0px;
+margin-left: 250px;
+margin-top: -30px;
+padding: 0px;
+list-style: none;
+clear: both;
+}
+* html ul.parent-menu-list
+{
+position: relative;
+z-index: 999999;
+}
+ul.parent-menu-list li
+{
+float: left;
+margin: 0px 1px;
+background: url('images/parent-menu.gif') no-repeat left top;
+padding-left: 27px;
+}
+ul.parent-menu-list a, ul.parent-menu-list li a:visited
+{
+display: block;
+height: 61px;
+line-height: 61px;
+margin: 0px;
+padding: 0px;
+text-decoration: none;
+background: url('images/parent-menu.gif') no-repeat right -244px;
+padding-right: 27px;
+}
+ul.parent-menu-list li a span
+{
+display: block;
+height: 61px;
+line-height: 61px;
+color: #ffffff;
+font-size: 16px;
+background: url('images/parent-menu.gif') repeat-x 0px -122px;
+cursor: pointer;
+white-space: nowrap;
+}
+* html ul.parent-menu-list a, * html ul.parent-menu-list li a:visited, * html ul.parent-menu-list li a span
+{
+width: 10px;
+}
+ul.parent-menu-list li.active, ul.parent-menu-list li.parent, ul.parent-menu-list li.hover
+{
+background: url('images/parent-menu.gif') no-repeat 0px -61px;
+}
+ul.parent-menu-list li.active a.active, ul.parent-menu-list li.parent a.parent, ul.parent-menu-list li a.hover, ul.parent-menu-list li.hover a.hover
+{
+text-decoration: none;
+background: url('images/parent-menu.gif') no-repeat right -305px;
+}
+ul.parent-menu-list li a.active span, ul.parent-menu-list li a.parent span, ul.parent-menu-list li a.hover span.hover, ul.parent-menu-list li.hover a.hover span.hover
+{
+background: url('images/parent-menu.gif') repeat-x 0px -183px;
+}
+/************ Child menu ***************/
+.child-menu-top
+{
+margin-top: 20px;
+margin-left: 10px;
+width: 220px;
+background: url('images/child-menu.gif') no-repeat 0px top;
+padding-top: 32px;
+}
+.child-menu-bottom
+{
+width: 220px;
+background: url('images/child-menu.gif') no-repeat -220px bottom;
+padding-bottom: 32px;
+}
+.child-menu
+{
+background: url('images/child-menu.gif') repeat-y -440px top;
+}
+ul.child-menu-list
+{
+width: 220px;
+margin: 0px;
+padding: 0px;
+list-style: none;
+}
+ul.child-menu-list li
+{
+margin: 0px;
+}
+ul.child-menu-list a, ul.child-menu-list li a:visited
+{
+display: block;
+height: 45px;
+line-height: 45px;
+margin: 0px;
+padding: 0px;
+text-decoration: none;
+background: url('images/child-menu-item.gif') no-repeat left top;
+}
+ul.child-menu-list li a span
+{
+display: block;
+height: 45px !important;
+width: 180px;
+line-height: 45px;
+color: #ffffff;
+font-size: 14px;
+padding: 0px 20px;
+position: relative;
+cursor: pointer;
+overflow:hidden;
+white-space: normal;
+}
+ul.child-menu-list li.active a.active, ul.child-menu-list li.parent a.parent, ul.child-menu-list li a:hover
+{
+text-decoration: none;
+background: url('images/child-menu-item.gif') no-repeat left bottom;
+}
+ul.child-menu-list li ul
+{
+width: auto;
+margin: 0px;
+padding: 0px;
+list-style: none;
+}
+ul.child-menu-list li ul li
+{
+margin: 0px;
+padding: 2px 0px 2px 0px;
+}
+ul.child-menu-list li ul li a
+{
+height: auto !important;
+line-height: 20px !important;
+text-decoration: none;
+background: none !important;
+color: #ffffff;
+}
+ul.child-menu-list li ul li a:hover, ul.child-menu-list li ul li a.active
+{
+background: none !important;
+border-right: 3px solid #fe2603;
+}
+ul.child-menu-list li ul li a:hover span
+{
+color: #fe2603 !important;
+}
+ul.child-menu-list li ul li a span, ul.child-menu-list li ul li.active a.active span, ul.child-menu-list li ul li a:hover span
+{
+height: auto !important;
+width: auto !important;
+line-height: 20px !important;
+background: none !important;
+font-size: 12px;
+color: #ffffff;
+white-space: normal;
+margin: 0px;
+}
+ul.child-menu-list li ul li.active a.active span, ul.child-menu-list li ul li a:hover span
+{
+color: #fe2603 !important;
+}
+ul.child-menu-list li ul li ul li
+{
+margin: 2px 0px 2px 20px;
+}

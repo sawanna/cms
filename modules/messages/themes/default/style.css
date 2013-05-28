@@ -1,0 +1,150 @@
+.messages-list-block
+{
+margin-bottom: 20px;
+}
+.messages-list-cap
+{
+position: relative;
+z-index:99;
+}
+.messages-list-block h2.messages-title
+{
+height: 40px;
+line-height: 40px;
+margin: 0px 210px 0px 140px;
+font-size: 14px;
+font-weight: bold;
+font-style: normal;
+}
+.messages-list-block .node
+{
+min-height: 140px;
+}
+.messages-list-block .node p
+{
+margin: 0px;
+}
+.messages-list-block div#content-component
+{
+margin: 0px;
+font-size: 14px !important;
+line-height: 20px;
+text-indent: 10px;
+}
+.messages-list-block .messages-date
+{
+width: 130px;
+float: left;
+color: #000000;
+font-size: 12px !important;
+height: 40px;
+line-height: 40px;
+white-space: nowrap;
+}
+.messages-list-block .messages-date label
+{
+float: left;
+color: #000000;
+font-weight: normal;
+margin: 0px 5px 0px 20px;
+}
+.messages-list-block .messages-reply, .messages-list-block .messages-delete
+{
+width: 100px;
+float: right;
+font-size: 12px;
+height: 40px;
+line-height: 40px;
+white-space: nowrap;
+text-align: center;
+}
+.messages-list-separator
+{
+clear: both;
+height: 40px;
+}
+.message-list-cap
+{
+width: 100%;
+margin: 0px 0px 5px 0px;
+padding: 0px;
+height: 40px;
+overflow: hidden;
+clear: both;
+}
+.messages-caption
+{
+font-size: 16px;
+font-weight: normal;
+font-style: italic;
+margin: 30px 0px 10px 20px;
+}
+.messages-caption a:link, .messages-caption a:visited, .messages-caption a:hover
+{
+text-decoration: none !important;
+}
+.messages-list-block .message-status
+{
+color: red;
+font-weight: bold;
+float: left;
+margin-right: 10px;
+}
+#messages-form .form_item
+{
+padding: 5px 10px;
+}
+#messages-form .form_title
+{
+font-weight: bold;
+font-size: 12px;
+margin: 4px 0px;
+height: 20px;
+}
+#messages-form .form_description
+{
+font-size: 11px;
+font-style: italic;
+margin: 2px;
+}
+#messages-form input#submit
+{
+margin-top: 10px;
+}
+.new-message-form
+{
+margin-top: 60px;
+}
+.messages-list-block .userinfo
+{
+float: left;
+width: 120px;
+margin: 0px 20px 10px 0px;
+text-align: center;
+overflow: hidden;
+}
+.messages-list-block .userinfo .username
+{
+font-weight: bold;
+font-size: 14px;
+margin-bottom: 2px;
+}
+.messages-list-block .userinfo .user_avatar img
+{
+border: 1px solid #000000;
+padding: 1px;
+}
+.messages-list-block .userinfo .user_gender
+{
+font-size: 11px;
+font-style: italic;
+}
+.messages-list-block .node-content
+{
+margin-left: 140px;
+}
+.messages-remark
+{
+font-style: italic;
+margin: 40px 10px 10px 10px;
+}

@@ -1,0 +1,35 @@
+#settings-form .form_item
+{
+padding: 5px 10px;
+}
+#settings-form .form_title
+{
+font-weight: bold;
+font-size: 12px;
+margin: 4px 0px;
+
+float: left;
+width: 300px;
+border-bottom: 1px dotted #000000;
+}
+#settings-form .form_description
+{
+font-size: 11px;
+font-style: italic;
+margin: 0px !important;
+}
+#settings-form #submit_item{
+margin-top: 20px;
+}
+#settings-form .caption {
+margin: 4px 10px;
+font-size: 14px;
+font-weight: bold;
+}
+.ajaxer-settings-sep {
+clear: both;
+height: 30px;
+}
+#settings-process-forms_description {
+clear: both;
+}

@@ -1,0 +1,81 @@
+#teasers-form .form_item
+{
+padding: 5px 10px;
+}
+#teasers-form .form_title
+{
+font-weight: bold;
+font-size: 12px;
+margin: 4px 0px;
+}
+#teasers-form .form_description
+{
+font-size: 11px;
+font-style: italic;
+margin: 2px;
+}
+#teasers-form select, #teasers-form input
+{
+width: 200px;
+}
+#teasers-form #submit, #teasers-form .checkbox
+{
+width: auto;
+}
+#teasers-list
+{
+width: 620px;
+padding: 10px;
+}
+#teasers-list select
+{
+width: 200px;
+}
+#teasers-list #teasers-language
+{
+margin: 20px 0px;
+}
+#teasers-list .form_title
+{
+font-size: 12px;
+font-weight: bold;
+margin: 10px 2px;
+}
+#teasers-list .head
+{
+border-bottom: 1px solid #000000;
+height: 30px;
+}
+.teasers-list-item
+{
+clear: both;
+margin: 10px 0px;
+padding: 10px 5px;
+}
+.teasers-list-item .id
+{
+float: left;
+width: 30px;
+height: 20px;
+font-size: 11px;
+font-weight: bold;
+border-right: 1px dotted #000000;
+padding: 2px;
+}
+.teasers-list-item .title
+{
+width: 350px;
+min-height: 30px;
+margin-left: 40px;
+font-size: 12px;
+}
+.teasers-list-item .btn
+{
+float: right;
+margin: 0px 10px;
+}
+* html .teasers-list-item .btn a
+{
+width: 100px;
+text-align: center;
+}

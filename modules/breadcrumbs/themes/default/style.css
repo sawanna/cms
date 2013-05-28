@@ -1,0 +1,31 @@
+ul.breadcrumbs
+{
+width: 100%;
+height: 20px;
+line-height: 20px;
+list-style: none;
+margin: 0px 0px 10px 0px;
+padding: 0px;
+}
+ul.breadcrumbs li
+{
+float: left;
+background: url('images/arrow.gif') no-repeat left center;
+padding-left: 20px;
+}
+ul.breadcrumbs li a
+{
+font-size: 11px;
+color: #000000;
+text-decoration: none;
+}
+ul.breadcrumbs li a:hover
+{
+color: #228688;
+text-decoration: underline;
+}
+ul.breadcrumbs li span
+{
+font-size: 11px;
+color: #228688;
+}

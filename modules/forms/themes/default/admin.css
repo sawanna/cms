@@ -1,0 +1,139 @@
+#forms-form .form_item, #field-form .form_item
+{
+padding: 5px 10px;
+}
+#forms-form .form_title, #field-form .form_title
+{
+font-weight: bold;
+font-size: 12px;
+margin: 4px 0px;
+}
+#forms-form .form_description, #field-form .form_description
+{
+font-size: 11px;
+font-style: italic;
+margin: 2px;
+}
+#forms-form select, #forms-form input, #field-form select, #field-form input
+{
+width: 200px;
+}
+#forms-form #submit, #forms-form .checkbox, #field-form #submit, #field-form .checkbox
+{
+width: auto;
+}
+#forms-form h3
+{
+font-size: 16px;
+font-style: italic;
+font-weight: normal;
+margin: 10px;
+}
+#forms-list, .fields-list, #results-list
+{
+width: 620px;
+padding: 10px;
+}
+#forms-list select, #results-list select
+{
+width: 200px;
+}
+#forms-list #forms-language
+{
+margin: 20px 0px;
+}
+#forms-list .form_title, #results-list .form_title
+{
+font-size: 12px;
+font-weight: bold;
+margin: 10px 2px;
+}
+#forms-list .head, #results-list .head
+{
+border-bottom: 1px solid #000000;
+height: 30px;
+}
+.forms-list-item, .fields-list, .results-list-item
+{
+clear: both;
+margin: 10px 0px;
+padding: 10px 5px;
+}
+.forms-list-item .id, .fields-list .id, .results-list-item .id
+{
+float: left;
+width: 30px;
+height: 20px;
+font-size: 11px;
+font-weight: bold;
+border-right: 1px dotted #000000;
+padding: 2px;
+}
+.head .title
+{
+height: 20px;
+padding: 2px;
+}
+.forms-list-item .title, .fields-list .title, .results-list-item .title
+{
+width: 350px;
+min-height: 30px;
+margin-left: 40px;
+font-size: 12px;
+}
+.forms-list-item .btn, .fields-list .btn, .results-list-item .btn
+{
+float: right;
+margin: 0px 10px;
+}
+* html .forms-list-item .btn a, * html .fields-list .btn a, * html .results-list-item .btn a
+{
+width: 100px;
+text-align: center;
+}
+.example-title
+{
+margin: 10px;
+font-weight: bold;
+font-size: 11px;
+}
+ul.examples
+{
+margin: 5px;
+}
+ul.examples li label
+{
+font-style: normal;
+}
+.results-list-item .form
+{
+font-weight: bold;
+margin-bottom: 10px;
+font-style: italic;
+text-decoration: underline;
+}
+.results-list-item .date
+{
+font-weight: bold;
+margin-bottom: 5px;
+font-size: 11px;
+}
+.results-list-item .from
+{
+font-weight: bold;
+margin-top: 5px;
+font-size: 11px;
+}
+#field-required_title
+{
+float: left;
+}
+#field-required_element
+{
+float: left;
+}
+
+#field-required_description
+{
+clear: both;
+}

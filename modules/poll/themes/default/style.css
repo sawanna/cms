@@ -1,0 +1,154 @@
+.pform form
+{
+margin: 0px;
+padding: 0px;
+}
+.pform .form_item
+{
+clear: both;
+zoom: 1;
+}
+.pform .form_element
+{
+clear: both;
+}
+.pform .form_title
+{
+font-weight: bold;
+font-size: 12px;
+margin: 4px 0px;
+clear: both;
+}
+.pform .radio_title
+{
+font-size: 12px;
+clear: both;
+}
+.pform .form_description
+{
+font-size: 11px;
+font-style: italic;
+margin: 2px;
+clear: both;
+}
+.pform-inline
+{
+position: relative;
+}
+.pform-inline .form_element
+{
+position: absolute;
+left: 10px;
+top: 0px;
+height: 20px;
+line-height: 20px !important;
+text-align: left;
+}
+.pform-inline .form_element input
+{
+width: auto !important;
+height: auto !important;
+border: none;
+background: none;
+text-align: left;
+}
+.pform-inline .form_title
+{
+margin-left: 35px;
+line-height: 20px !important;
+}
+.pform-inline .form_title label
+{
+line-height: 20px !important;
+font-weight: normal;
+}
+div.pforms-widget-block
+{
+width: 220px;
+margin-bottom: 20px;
+padding-top: 10px;
+}
+div.pforms-node-block
+{
+margin-bottom: 20px;
+}
+.leftbar div.pforms-widget-block
+{
+margin: 20px 0px;
+margin-left: 10px;
+}
+.rightbar div.pforms-widget-block
+{
+margin: 20px 0px;
+margin-right: 10px;
+}
+.leftbar div.pforms-node-block
+{
+margin: 20px 0px;
+margin-left: 10px;
+}
+.rightbar div.pforms-node-block
+{
+margin: 20px 0px;
+margin-right: 10px;
+}
+
+.pforms-widget-block .pform-inline, .leftbar .pform-inline, .rightbar .pform-inline
+{
+clear: both;
+}
+ * html .leftbar .pform-widget  form, * html .rightbar .pform-widget  form
+{
+width: 170px;
+overflow: hidden;
+}
+* html .pforms-widget-block form
+{
+width: 180px;
+overflow: hidden;
+}
+.poll-subject 
+{
+font-weight: bold;
+font-style: italic;
+margin-bottom: 10px;
+}
+.pform .form_element #submit
+{
+width: auto !important;
+margin-top: 10px;
+}
+.pform #submit_item
+{
+text-align: center;
+}
+.pforms-node-block h2
+{
+font-size: 16px;
+font-weight: normal;
+font-style: italic;
+margin-left: 20px;
+}
+.poll-space
+{
+height: 20px;
+}
+.poll-results-field .separator 
+{
+padding: 0px 10px;
+}
+.poll-results-field .value
+{
+font-weight: bold;
+}
+.poll-results-field img
+{
+display: block;
+background-image: url(images/poll-bg.jpg);
+background-repeat: repeat;
+width: 0%;
+height: 10px;
+margin-top: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}

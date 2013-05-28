@@ -1,0 +1,118 @@
+#menu-form .form_item, #settings-form .form_item
+{
+padding: 5px 10px;
+}
+#menu-form .form_title, #settings-form .form_title
+{
+font-weight: bold;
+font-size: 12px;
+margin: 4px 0px;
+}
+#menu-form .form_description, #settings-form .form_description
+{
+font-size: 11px;
+font-style: italic;
+margin: 2px;
+}
+#menu-form select, #menu-form input
+{
+width: 200px;
+}
+#menu-form #submit, #menu-form #submit-tab, #menu-form #submit-additions, #menu-form #menu-add-path-btn, #menu-form #menu-add-keyword-btn, #menu-form .checkbox
+{
+width: auto;
+}
+#menu-list
+{
+width: 620px;
+padding: 10px;
+}
+#menu-list .disabled
+{
+color: #f99d9d;
+}
+#menu-list select
+{
+width: 200px;
+}
+#menu-list #menu-language
+{
+margin: 20px 0px;
+}
+#menu-list .form_title
+{
+font-size: 12px;
+font-weight: bold;
+margin: 10px 2px;
+}
+#menu-list .head
+{
+border-bottom: 1px solid #000000;
+height: 30px;
+}
+.menu-list-item
+{
+clear: both;
+margin: 10px 0px;
+padding: 10px 5px;
+}
+.menu-list-item .id
+{
+float: left;
+width: 30px;
+height: 20px;
+font-size: 11px;
+font-weight: bold;
+border-right: 1px dotted #000000;
+padding: 2px;
+}
+.menu-list-item .title
+{
+width: 350px;
+min-height: 30px;
+margin-left: 40px;
+font-size: 12px;
+}
+.menu-list-item .btn
+{
+float: right;
+margin: 0px 10px;
+}
+* html .menu-list-item .btn a
+{
+width: 100px;
+text-align: center;
+}
+#settings-form .form_description .examples
+{
+margin: 10px 20px;
+}
+#settings-form .examples-title
+{
+margin: 10px 20px;
+font-weight: bold;
+}
+#settings-effect-button
+{
+width: 100px !important;
+}
+#settings-effect-menu
+{
+width: 200px !important;
+}
+#menu_user_group_access-menu
+{
+width: 300px !important;
+}
+#delete-prompt-wnd {
+display: none;	
+}
+#delete-prompt-wnd div {
+padding: 10px;	
+line-height: 20px;
+height: 20px;
+}
+#delete-prompt-wnd label {
+margin-left: 5px;
+vertical-align: bottom;
+}

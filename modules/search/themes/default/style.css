@@ -1,0 +1,82 @@
+#search-form .form_item, #quick-search-form .form_item
+{
+padding: 2px;
+zoom: 1;
+}
+#search-form .form_title, #quick-search-form .form_title
+{
+padding-bottom: 5px;
+font-weight: bold;
+zoom: 1;
+height: 20px;
+line-height: 20px;
+}
+#search-form .form_description, #quick-search-form .form_description
+{
+padding-top: 5px;
+font-style: italic;
+zoom: 1;
+}
+* html #quick-search-form .form_description
+{
+width: 160px;
+}
+#quick-search-form
+{
+margin: 0px;
+padding: 0px;
+}
+* html #search-form #search-text
+{
+width: 98% !important;
+}
+#quick-search-form input#search-text
+{
+width: 160px !important;
+}
+.search-item
+{
+margin: 20px 10px;
+padding: 5px;
+}
+.search-item .search-title
+{
+margin: 2px 0px;
+padding: 2px 0px;
+border-bottom: 1px dotted #000000;
+}
+.search-item .search-title a
+{
+font-size: 16px;
+}
+.search-item .search-content
+{
+font-size: 13px;
+}
+.search-item .search-keyword
+{
+margin-top: 2px;
+font-size: 11px;
+font-style: italic;
+}
+.quick-seacrh-form-block
+{
+width: 220px;
+margin: 20px 0px;
+overflow: hidden;
+}
+.leftbar .quick-seacrh-form-block
+{
+margin-left: 10px;
+}
+.rightbar .quick-seacrh-form-block
+{
+margin-right: 10px;
+}
+.seacrh-form-block .checkbox
+{
+height: 20px;
+line-height: 20px;
+float: left;
+margin-right: 10px;
+}

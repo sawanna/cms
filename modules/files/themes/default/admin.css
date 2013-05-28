@@ -1,0 +1,88 @@
+#files-form .form_item, #dir-form .form_item
+{
+padding: 5px 10px;
+}
+#files-form .form_title, #dir-form .form_title
+{
+font-weight: bold;
+font-size: 12px;
+margin: 4px 0px;
+}
+#files-form .form_description, #dir-form .form_description
+{
+font-size: 11px;
+font-style: italic;
+margin: 2px;
+}
+#files-form select, #files-form input
+{
+width: 200px;
+}
+#files-form #submit, #dir-form #submit
+{
+width: auto;
+}
+#files-list
+{
+width: 620px;
+padding: 10px;
+}
+#files-list select
+{
+width: 200px;
+}
+#files-list .form_title
+{
+font-size: 12px;
+font-weight: bold;
+margin: 10px 2px;
+}
+#files-list .head
+{
+border-bottom: 1px solid #000000;
+height: 30px;
+}
+.files-list-item
+{
+clear: both;
+margin: 10px 0px;
+padding: 10px 5px;
+}
+.files-list-item .id
+{
+float: left;
+width: 30px;
+height: 20px;
+font-size: 11px;
+font-weight: bold;
+border-right: 1px dotted #000000;
+padding: 2px;
+}
+#files-list .head .file
+{
+font-style: italic;
+font-size: 11px;
+height: 20px;
+line-height: 20px;
+}
+.files-list-item .file
+{
+width: 350px;
+min-height: 30px;
+margin-left: 40px;
+font-size: 12px;
+}
+.files-list-item .btn
+{
+float: right;
+margin: 0px 10px;
+}
+* html .files-list-item .btn a
+{
+width: 100px;
+text-align: center;
+}
+#file-dir-menu
+{
+width: 400px !important;
+}

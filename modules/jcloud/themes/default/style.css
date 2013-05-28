@@ -1,0 +1,44 @@
+div.jcloud-block
+{
+width: 220px;
+margin-bottom: 20px;
+}
+div.jcloud-block
+{
+margin-bottom: 20px;
+}
+.leftbar div.jcloud-block
+{
+margin: 20px 0px;
+margin-left: 10px;
+}
+.rightbar div.jcloud-block
+{
+margin: 20px 0px;
+margin-right: 10px;
+}
+ul#jcloud-list
+{
+display: none;
+}
+div#jcloud, div.jcloud-block object, div.jcloud-block embed
+{
+margin: 0px auto;
+}
+div.jtag 
+{
+white-space: nowrap;
+filter: opacity=100 !important;
+}
+div.jtag a:link, div.jtag a:visited
+{
+display: block;
+padding: 5px;
+text-decoration: none;
+white-space: nowrap;
+}
+div.jtag a:hover
+{
+border: 1px solid #333333;
+background-color: #ffffff;
+}

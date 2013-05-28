@@ -1,0 +1,118 @@
+.cform form
+{
+margin: 0px;
+padding: 0px;
+}
+.cform .form_item
+{
+padding: 5px 6px;
+clear: both;
+zoom: 1;
+}
+.cform .form_element
+{
+clear: both;
+}
+.cform .form_title
+{
+font-weight: bold;
+font-size: 12px;
+margin: 4px 0px;
+clear: both;
+}
+.cform .radio_title
+{
+font-size: 12px;
+clear: both;
+}
+.cform .form_description
+{
+font-size: 11px;
+font-style: italic;
+margin: 2px;
+clear: both;
+}
+* html textarea
+{
+width: 98% !important;
+}
+.cform-inline
+{
+float: left;
+}
+.cform-inline .form_item, .cform-inline .form_element, .cform-inline .form_title, .cform-inline .form_description
+{
+float: left;
+clear: none;
+height: 20px;
+line-height: 20px;
+margin: 2px 0px;
+}
+.cform-inline input
+{
+margin-left: 10px;
+margin-right: 5px;
+}
+div.cforms-widget-block
+{
+width: 220px;
+margin-bottom: 20px;
+padding-top: 10px;
+}
+div.cforms-node-block
+{
+margin-bottom: 20px;
+}
+.leftbar div.cforms-widget-block
+{
+margin: 20px 0px;
+margin-left: 10px;
+}
+.rightbar div.cforms-widget-block
+{
+margin: 20px 0px;
+margin-right: 10px;
+}
+.leftbar div.cforms-node-block
+{
+margin: 20px 0px;
+margin-left: 10px;
+}
+.rightbar div.cforms-node-block
+{
+margin: 20px 0px;
+margin-right: 10px;
+}
+.leftbar .cform-widget input, .leftbar .cform-widget textarea, .rightbar .cform-widget input, .rightbar .cform-widget textarea
+ {
+ width: 140px;
+ }
+.cforms-widget-block .cform .form_element input, .cforms-widget-block .cform .form_element textarea
+{
+width: 150px;
+}
+.cforms-widget-block .cform .form_element #submit,.cforms-widget-block .cform .form_element .checkbox, .cforms-widget-block .cform .form_element .radio, .leftbar .cform-widget #submit, .leftbar .cform-widget .checkbox, .leftbar .cform-widget .radio, .rightbar .cform-widget #submit, .rightbar .cform-widget .checkbox, .rightbar .cform-widget .radio
+{
+width: auto !important;
+}
+.cforms-widget-block .cform-inline, .leftbar .cform-inline, .rightbar .cform-inline
+{
+clear: both;
+}
+ * html .leftbar .cform-widget  form, * html .rightbar .cform-widget  form
+{
+width: 170px;
+overflow: hidden;
+}
+* html .cforms-widget-block form
+{
+width: 180px;
+overflow: hidden;
+}
+.cforms-node-block h2
+{
+font-size: 16px;
+font-weight: normal;
+font-style: italic;
+margin-left: 10px;
+}

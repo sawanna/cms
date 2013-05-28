@@ -1,0 +1,133 @@
+div.teasers-widget-block
+{
+width: 220px;
+margin-bottom: 20px;
+}
+div.teasers-node-block
+{
+margin-bottom: 20px;
+}
+.leftbar div.teasers-widget-block
+{
+margin: 20px 0px;
+margin-left: 10px;
+}
+.rightbar div.teasers-widget-block
+{
+margin: 20px 0px;
+margin-right: 10px;
+}
+.leftbar div.teasers-node-block
+{
+margin: 20px 0px;
+margin-left: 10px;
+}
+.rightbar div.teasers-node-block
+{
+margin: 20px 0px;
+margin-right: 10px;
+}
+div.teasers-widget-block .teaser-sticky
+{
+zoom: 1;
+padding-bottom: 4px !important;
+border-bottom: 1px dotted #000000;
+}
+div.teasers-node-block .teaser-sticky
+{
+padding-bottom: 20px !important;
+border-bottom: 2px solid #990000;
+}
+.teaser-item
+{
+clear: both;
+}
+div.teasers-widget-block .teaser-date
+{
+font-style: italic;
+font-size: 11px;
+}
+div.teasers-node-block .teaser-date
+{
+font-style: italic;
+font-size: 12px;
+}
+div.teasers-widget-block .teaser-title
+{
+font-weight: bold;
+font-size: 13px;
+padding: 2px 0px !important;
+}
+div.teasers-node-block .teaser-title
+{
+font-weight: bold;
+font-size: 14px;
+padding: 5px 0px !important;
+}
+.teaser-body
+{
+clear: both;
+}
+.teaser-thumbnail
+{
+float: left;
+}
+div.teasers-widget-block .teaser-thumbnail img
+{
+width: 80px;
+height: 60px;
+border: 1px solid #999999;
+padding: 1px;
+margin-right: 10px;
+margin-bottom: 10px;
+}
+div.teasers-node-block .teaser-thumbnail img
+{
+border: 1px solid #999999;
+padding: 1px;
+margin-right: 10px;
+margin-bottom: 10px;
+}
+.leftbar div.teasers-node-block .teaser-thumbnail img, .rightbar div.teasers-node-block .teaser-thumbnail img
+{
+width: 80px;
+height: 60px;
+}
+.teaser-content
+{
+font-size: 12px;
+}
+div.teasers-widget-block .teaser-link
+{
+margin-top: 10px;
+float: right;
+}
+div.teasers-node-block .teaser-link
+{
+margin-top: 20px;
+float: right;
+}
+div.teasers-widget-block .teaser-separator
+{
+height: 10px;
+clear: both;
+}
+div.teasers-node-block .teaser-separator
+{
+height: 10px;
+clear: both;
+}
+div.teasers-node-block h2
+{
+font-weight: normal;
+font-size: 16px;
+font-style: italic;
+margin: 10px 20px;
+}
+#teaser-thumbnail-zoomer-image
+{
+border: 1px solid #999999;
+padding: 1px;
+border-radius: 2px;
+-moz-border-radius: 2px;
+}

@@ -1,0 +1,196 @@
+.nodes-list-block
+{
+margin-bottom: 20px;
+}
+.node-list-cap
+{
+position: relative;
+z-index:99;
+/*border-bottom: 1px solid #123A3C;*/
+}
+.node-list-cap-r, node-list-cap-l, node-list-cap-bg
+{
+zoom: 1;
+}
+
+.node-list-body
+{
+margin-top: -12px;
+}
+.node-list-body-sticky
+{
+margin-top: -12px;
+}
+
+.nodes-list-block h2.node-title
+{
+height: 30px;
+line-height: 30px;
+margin: 0px 160px 0px 0px;
+color: #000;
+font-size: 15px;
+font-weight: bold;
+}
+.nodes-list-block h2.node-title a:link, .nodes-list-block h2.node-title a:visited
+{
+color: #000;
+font-size: 15px;
+text-decoration: none;
+}
+.nodes-list-block h2.node-title a:hover
+{
+text-decoration: underline;
+}
+.nodes-list-block .node
+{
+min-height: 100px;
+}
+.nodes-list-block .node p
+{
+margin: 0px;
+text-indent: 0px;
+}
+.nodes-list-block div#content-component
+{
+margin: 0px;
+font-size: 14px !important;
+line-height: 20px;
+text-indent: 0px;
+}
+.nodes-list-block .node-date
+{
+width: 100px;
+float: left;
+color: #000;
+font-size: 12px;
+margin: 0px;
+margin-top: 5px;
+white-space: nowrap;
+}
+.nodes-list-block .node-date label
+{
+float: left;
+color: #000;
+font-weight: normal;
+margin-right: 5px;
+}
+.nodes-list-block .node-author
+{
+color: #18484e;
+font-size: 12px;
+margin-top: 5px;
+margin-left: 10px;
+white-space: nowrap;
+float: left;
+}
+.nodes-list-block .node-author label
+{
+float: left;
+color: #000000;
+font-weight: normal;
+margin-right: 5px;
+}
+.nodes-list-block .node-author div
+{
+float: left;
+}
+.nodes-list-separator
+{
+clear: both;
+height: 20px;
+}
+.nodes-list-block .thumbnail
+{
+float: left;
+margin: 0px 0px;
+//margin-top: 10px;
+}
+.nodes-list-block .thumbnail img
+{
+border: 1px solid #3f4a58;
+padding: 1px;
+margin: 0px 10px 10px 0px;
+}
+.nodes-list-block .read-more
+{
+clear: right;
+float: right;
+margin: 5px 0px 5px 5px;
+//margin: 0px;
+}
+.nodes-list-block .node-list-cap
+{
+width: 100%;
+margin: 0px 0px 2px 0px;
+padding: 0px;
+height: 30px;
+overflow: hidden;
+clear: both;
+}
+.nodes-list-block .node-list-cap-bg
+{
+margin: 0px;
+height: 30px;
+/*background: url('images/list-cap-middle.gif') repeat-x left bottom;*/
+}
+.nodes-list-block .node-list-cap-l
+{
+margin: 0px;
+/*
+padding-left: 11px;
+background: url('images/list-cap-left.gif') no-repeat left top;
+*/
+}
+.nodes-list-block .node-list-cap-r
+{
+margin: 0px;
+/*
+padding-right: 11px;
+background: url('images/list-cap-right.gif') no-repeat right top;
+*/
+}
+/*
+.nodes-list-sticky .node-list-cap-bg
+{
+background: url('images/list-cap-sticky-bg.gif') repeat-x left top;
+}
+.nodes-list-sticky .node-list-cap-l
+{
+background: url('images/list-cap-sticky-l.gif') no-repeat left top;
+}
+.nodes-list-sticky .node-list-cap-r
+{
+background: url('images/list-cap-sticky-r.gif') no-repeat right top;
+}
+*/
+
+.nodes-list-block .node-rate {
+float: left;
+margin-top: 5px;
+font-size: 12px;
+}
+.node-list-rate-container {
+position: relative;
+margin-top: -3px;
+margin-right: 10px;
+}
+.node-list-rate-yellow {
+float:left;
+width: 16px;
+height: 16px;
+margin-right: 2px;
+background-image: url(images/star-small.png);
+background-repeat: no-repeat;
+vertical-align: text-bottom;
+background-position: 0px 1px;
+}
+.node-list-rate-grey {
+float:left;
+width: 16px;
+height: 16px;
+margin-right: 2px;
+background-image: url(images/star-small.png);
+background-repeat: no-repeat;
+vertical-align: text-bottom;
+background-position: left bottom;
+}

@@ -1,0 +1,128 @@
+#comments-settings-form .form_item, #comments-search-form .form_item
+{
+padding: 5px 10px;
+}
+#comments-settings-form .form_title, #comments-search-form .form_title
+{
+font-weight: bold;
+font-size: 12px;
+margin: 4px 0px;
+}
+#comments-settings-form .form_description, #comments-search-form .form_description
+{
+font-size: 11px;
+font-style: italic;
+margin: 2px;
+}
+#comments-settings-form #submit, #comments-search-form #submit
+{
+width: auto;
+}
+#comments-search-form .form_item
+{
+float: left;
+}
+#comments-search-form .form_title
+{
+height: 20px;
+}
+#comments-search-form
+{
+height: 100px;
+clear: both;
+}
+* html #comments-search-form .form_item
+{
+width: 200px;
+}
+#comments-list
+{
+width: 620px;
+padding: 10px;
+}
+#comments-list select
+{
+width: 200px;
+}
+#comments-list #node-language
+{
+margin: 20px 0px;
+}
+#comments-list .form_title
+{
+font-size: 12px;
+font-weight: bold;
+margin: 10px 2px;
+}
+#comments-list .head
+{
+border-bottom: 1px solid #000000;
+height: 30px;
+}
+#comments-list .head .id, #comments-list .head .comment
+{
+height: 30px;
+line-height: 30px;
+padding: 0px;
+}
+.comments-list-item
+{
+clear: both;
+margin: 10px 0px;
+padding: 10px 5px;
+}
+.comments-list-item .id
+{
+float: left;
+width: 30px;
+height: 20px;
+font-size: 11px;
+font-weight: bold;
+border-right: 1px dotted #000000;
+padding: 2px;
+}
+.comments-list-item .comment
+{
+width: 300px;
+min-height: 30px;
+margin-left: 40px;
+font-size: 12px;
+}
+.comments-list-item .btn
+{
+float: right;
+margin: 0px 10px;
+}
+* html .comments-list-item .btn a
+{
+width: 100px;
+text-align: center;
+}
+.comments-list-item .act
+{
+width: 140px;
+text-align: center;
+}
+#comments-list .disabled
+{
+background-color: #f99d9d;
+}
+.comments-list-item .path, .comments-list-item .user
+{
+font-size: 11px;
+font-style: italic;
+}
+.comments-list-item .path a, .comments-list-item .user a
+{
+font-weight: bold;
+}
+.comments-list-item .path
+{
+border-bottom: 1px dotted #000000;
+margin-bottom: 10px;
+}
+.comments-list-item .user
+{
+border-top: 1px dotted #000000;
+margin-top: 10px;
+}

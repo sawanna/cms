@@ -1,0 +1,86 @@
+#cwidgets-form .form_item
+{
+padding: 5px 10px;
+}
+#cwidgets-form .form_title
+{
+font-weight: bold;
+font-size: 12px;
+margin: 4px 0px;
+}
+#cwidgets-form .form_description
+{
+font-size: 11px;
+font-style: italic;
+margin: 2px;
+}
+#cwidgets-form select, #cwidgets-form input
+{
+width: 200px;
+}
+#cwidgets-form #submit, #cwidgets-form .checkbox
+{
+width: auto;
+}
+#cwidgets-list
+{
+width: 620px;
+padding: 10px;
+}
+#cwidgets-list select
+{
+width: 200px;
+}
+#cwidgets-list #cwidgets-language
+{
+margin: 20px 0px;
+}
+#cwidgets-list .form_title
+{
+font-size: 12px;
+font-weight: bold;
+margin: 10px 2px;
+}
+#cwidgets-list .head
+{
+border-bottom: 1px solid #000000;
+height: 30px;
+}
+.cwidgets-list-item
+{
+clear: both;
+margin: 10px 0px;
+padding: 10px 5px;
+}
+.cwidgets-list-item .id
+{
+float: left;
+width: 30px;
+height: 20px;
+font-size: 11px;
+font-weight: bold;
+border-right: 1px dotted #000000;
+padding: 2px;
+}
+.cwidgets-list-item .title
+{
+width: 350px;
+min-height: 30px;
+margin-left: 40px;
+font-size: 12px;
+}
+.cwidgets-list-item .btn
+{
+float: right;
+margin: 0px 10px;
+}
+* html .cwidgets-list-item .btn a
+{
+width: 100px;
+text-align: center;
+}
+#wysiwyg-btn-block
+{
+text-align: right;
+padding: 0px 20px;
+}

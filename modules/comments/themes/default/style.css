@@ -1,0 +1,488 @@
+.comments-list-block
+{
+margin-bottom: 20px;
+}
+.comments-list-block .node
+{
+min-height: 140px;
+}
+.comments-list-block .node p
+{
+margin: 0px;
+}
+.comments-list-block div#content-component
+{
+margin: 0px;
+font-size: 14px !important;
+line-height: 20px;
+text-indent: 10px;
+}
+.comments-list-block .comment-date
+{
+width: 200px;
+float: right;
+color: #000000;
+font-size: 12px;
+margin: 10px 0px;
+white-space: nowrap;
+}
+.comments-list-block .comment-date label
+{
+float: left;
+color: #000000;
+font-weight: normal;
+margin-right: 5px;
+}
+.comments-list-separator
+{
+clear: both;
+height: 40px;
+}
+.comment-list-cap
+{
+width: 100%;
+margin: 0px 0px 5px 0px;
+padding: 0px;
+height: 40px;
+overflow: hidden;
+clear: both;
+}
+.comment-list-cap-bg
+{
+margin: 0px;
+height: 40px;
+background: url('images/cap-bg.gif') repeat-x left top;
+}
+.comment-list-cap-l
+{
+margin: 0px;
+padding-left: 14px;
+background: url('images/cap-l.gif') no-repeat left top;
+}
+.comment-list-cap-r
+{
+margin: 0px;
+padding-right: 14px;
+background: url('images/cap-r.gif') no-repeat right top;
+}
+.comments-caption
+{
+font-size: 16px;
+font-weight: normal;
+font-style: italic;
+margin: 30px 0px 10px 20px;
+}
+.comments-caption a:link, .comments-caption a:visited, .comments-caption a:hover
+{
+text-decoration: none !important;
+}
+#comments-form .form_item
+{
+padding: 5px 10px;
+}
+#comments-form .form_title
+{
+font-weight: bold;
+font-size: 12px;
+margin: 4px 0px;
+height: 20px;
+}
+#comments-form .form_description
+{
+font-size: 11px;
+font-style: italic;
+margin: 2px;
+}
+#comments-form input#submit
+{
+margin-top: 10px;
+}
+.new-comment-form
+{
+margin-top: 60px;
+}
+.comments-list-block .userinfo
+{
+float: left;
+width: 120px;
+margin: 0px 20px 10px 0px;
+text-align: center;
+overflow: hidden;
+}
+.comments-list-block .userinfo .username
+{
+font-weight: bold;
+font-size: 14px;
+margin-bottom: 2px;
+}
+.comments-list-block .userinfo .user_avatar img
+{
+border: 1px solid #000000;
+padding: 1px;
+}
+.comments-list-block .userinfo .user_gender
+{
+font-size: 11px;
+font-style: italic;
+}
+.comments-list-block .node-content
+{
+margin-left: 140px;
+}
+.comments-list-block .node-content .my-comments-url
+{
+padding-top: 20px;
+}
+.comments-list-block blockquote
+{
+/*width: 500px;*/
+overflow: auto;
+border: 1px dotted #37a657;
+background: #ffffff url('images/quote.gif') no-repeat top left;
+color: #37a657;
+font-style: italic;
+font-size: 12px;
+margin: 0px 20px 0px 0px;
+padding: 10px 5px 10px 20px;
+}
+.comments-list-block div.kode
+{
+/*width: 500px;*/
+overflow: auto;
+border: 1px dotted #c0c4c1;
+background: #ffffff url('images/code.gif') repeat-y top left;
+color: #000000;
+font-style: normal;
+font-size: 13px;
+line-height: 20px;
+margin: 0px 20px 0px 0px;
+padding: 0px 10px 10px 20px;
+}
+.comments-list-block p.img
+{
+display:block;
+margin: 0px;
+padding: 0px;
+width: 500px;
+overflow: auto;
+}
+.comments-list-block ul, .comments-list-block ol
+{
+margin: 0px 20px;
+padding: 0px;
+list-style-position: inside;
+}
+.comments-list-block li
+{
+margin: 0px;
+padding: 0px;
+line-height: 20px;
+}
+/* empticons */
+span.emoticon
+{
+width: 20px;
+height: 20px;
+display: inline;
+padding: 4px 10px;
+//padding: 0px;
+zoom: 1;
+margin: 2px;
+}
+span.smile
+{
+background: url('images/emoticons/smile.png') no-repeat left top;
+}
+span.big_grin
+{
+background: url('images/emoticons/big_grin.png') no-repeat left top;
+}
+span.angry
+{
+background: url('images/emoticons/angry.png') no-repeat left top;
+}
+span.cry
+{
+background: url('images/emoticons/cry.png') no-repeat left top;
+}
+span.happy
+{
+background: url('images/emoticons/happy.png') no-repeat left top;
+}
+span.mad
+{
+background: url('images/emoticons/mad.png') no-repeat left top;
+}
+span.sad
+{
+background: url('images/emoticons/sad.png') no-repeat left top;
+}
+span.sleep
+{
+background: url('images/emoticons/sleep.png') no-repeat left top;
+}
+span.stressed
+{
+background: url('images/emoticons/stressed.png') no-repeat left top;
+}
+span.surprised
+{
+background: url('images/emoticons/surprised.png') no-repeat left top;
+}
+span.tongue
+{
+background: url('images/emoticons/tongue.png') no-repeat left top;
+}
+span.wink
+{
+background: url('images/emoticons/wink.png') no-repeat left top;
+}
+span.glasses
+{
+background: url('images/emoticons/glasses.png') no-repeat left top;
+}
+.new-comment-form .comments-editor
+{
+clear: both;
+height: 30px;
+}
+.new-comment-form .comments-emoticons
+{
+clear: both;
+height: 20px;
+}
+* html .new-comment-form textarea
+{
+width: 98% !important;
+}
+/* jquery bbcode editor */
+textarea {
+    float:left;
+    clear:left;
+    margin-top:5px;
+    border:solid 1px #CCC;
+    padding:5px;
+}
+
+.preview {
+    float:left;
+    clear:left;
+}
+
+.btn {
+    background: transparent url('images/buttons.gif') no-repeat scroll 0 0;
+    width:20px;
+    height:20px;
+    margin-right:5px;
+    display:inline-block;
+    float:left;
+}
+
+.bold {
+    background-position:0 0;
+}
+
+.bold:hover {
+    background-position:0 -25px;
+}
+
+.italic {
+    background-position:-25px 0;
+}
+
+.italic:hover {
+    background-position:-25px -25px;
+}
+
+.underline {
+    background-position:-50px 0;
+}
+
+.underline:hover {
+    background-position:-50px -25px;
+}
+
+.link {
+    background-position:-75px 0;
+}
+
+.link:hover {
+    background-position:-75px -25px;
+}
+
+.quote {
+    background-position:-100px 0;
+}
+
+.quote:hover {
+    background-position:-100px -25px;
+}
+
+.code {
+    background-position:-125px 0;
+}
+
+.code:hover {
+    background-position:-125px -25px;
+}
+
+.image {
+    background-position:-150px 0;
+}
+
+.image:hover {
+    background-position:-150px -25px;
+}
+
+.nlist {
+    background-position:-175px 0;
+}
+
+.nlist:hover {
+    background-position:-175px -25px;
+}
+
+.blist {
+    background-position:-200px 0;
+}
+
+.blist:hover {
+    background-position:-200px -25px;
+}
+
+.litem {
+    background-position:-225px 0;
+}
+
+.litem:hover {
+    background-position:-225px -25px;
+}
+
+.back {
+    background-position:-250px 0;
+}
+
+.back:hover {
+    background-position:-250px -25px;
+}
+
+.back_disable {
+    background-position:-250px -50px;
+}
+
+.forward {
+    background-position:-275px 0;
+}
+
+.forward:hover {
+    background-position:-275px -25px;
+}
+
+.forward_disable {
+    background-position:-275px -50px;
+}
+
+.usize {
+    background-position:-300px 0;
+}
+
+.usize:hover {
+    background-position:-300px -25px;
+}
+
+.dsize {
+    background-position:-325px 0;
+}
+
+.dsize:hover {
+    background-position:-325px -25px;
+}
+/* syntax highlighter */
+/* Pretty printing styles. Used with prettify.js. */
+
+.str { color: #080; }
+.kwd { color: #008; }
+.com { color: #800; }
+.typ { color: #606; }
+.lit { color: #066; }
+.pun { color: #660; }
+.pln { color: #000; }
+.tag { color: #008; }
+.atn { color: #606; }
+.atv { color: #080; }
+.dec { color: #606; }
+pre.prettyprint { padding: 2px; border: 1px solid #888; }
+
+@media print {
+  .str { color: #060; }
+  .kwd { color: #006; font-weight: bold; }
+  .com { color: #600; font-style: italic; }
+  .typ { color: #404; font-weight: bold; }
+  .lit { color: #044; }
+  .pun { color: #440; }
+  .pln { color: #000; }
+  .tag { color: #006; font-weight: bold; }
+  .atn { color: #404; }
+  .atv { color: #060; }
+}
+/* latest comments */
+.latest-comments
+{
+width: 220px;
+margin: 20px 0px;
+overflow: hidden;
+}
+.leftbar .latest-comments
+{
+margin-left: 10px;
+}
+.rightbar .latest-comments
+{
+margin-right: 10px;
+}
+.latest-comment-item
+{
+text-align: left;
+}
+.latest-comment-date
+{
+color: #990000;
+font-weight: bold;
+font-size: 11px;
+font-style: italic;
+}
+.latest-comment-text
+{
+width: 180px;
+font-size: 12px;
+line-height: 20px;
+overflow: hidden;
+}
+.latest-comment-text a
+{
+color: #333333 !important;
+}
+.latest-comment-user
+{
+font-size: 11px;
+color: #990000;
+font-weight: bold;
+font-style: italic;
+}
+.latest-comment-user a:link, .latest-comment-user a:visited
+{
+font-size: 11px;
+font-weight: normal;
+color: #999999;
+text-decoration: none;
+}
+.latest-comment-user a:hover
+{
+color: #000000;
+text-decoration: underline;
+}
+.latest-comments-separator
+{
+clear: both;
+height: 10px;
+}

@@ -1,0 +1,116 @@
+#poll-form .form_item, #field-form .form_item
+{
+padding: 5px 10px;
+}
+#poll-form .form_title, #field-form .form_title
+{
+font-weight: bold;
+font-size: 12px;
+margin: 4px 0px;
+}
+#poll-form .form_description, #field-form .form_description
+{
+font-size: 11px;
+font-style: italic;
+margin: 2px;
+}
+#poll-form select, #poll-form input, #field-form select, #field-form input
+{
+width: 200px;
+}
+#poll-form textarea
+{
+width: 400px;
+}
+#poll-form #submit, #poll-form .checkbox, #field-form #submit, #field-form .checkbox
+{
+width: auto;
+}
+#poll-form h3
+{
+font-size: 16px;
+font-style: italic;
+font-weight: normal;
+margin: 10px;
+}
+#poll-list, .fields-list, #results-list
+{
+width: 620px;
+padding: 10px;
+}
+#poll-list select, #results-list select
+{
+width: 200px;
+}
+#poll-list #poll-language
+{
+margin: 20px 0px;
+}
+#poll-list .form_title, #results-list .form_title
+{
+font-size: 12px;
+font-weight: bold;
+margin: 10px 2px;
+}
+#poll-list .head, #results-list .head
+{
+border-bottom: 1px solid #000000;
+height: 30px;
+}
+.poll-list-item, .fields-list, .results-list-item
+{
+clear: both;
+margin: 10px 0px;
+padding: 10px 5px;
+}
+.poll-list-item .id, .fields-list .id, .results-list-item .id
+{
+float: left;
+width: 30px;
+height: 20px;
+font-size: 11px;
+font-weight: bold;
+border-right: 1px dotted #000000;
+padding: 2px;
+}
+.head .title
+{
+height: 20px;
+padding: 2px;
+}
+.poll-list-item .title, .fields-list .title, .results-list-item .title
+{
+width: 350px;
+min-height: 30px;
+margin-left: 40px;
+font-size: 12px;
+}
+.poll-list-item .btn, .fields-list .btn, .results-list-item .btn
+{
+float: right;
+margin: 0px 10px;
+}
+* html .poll-list-item .btn a, * html .fields-list .btn a, * html .results-list-item .btn a
+{
+width: 100px;
+text-align: center;
+}
+.results-list-item .form
+{
+font-weight: bold;
+margin-bottom: 10px;
+font-style: italic;
+text-decoration: underline;
+}
+.results-list-item .poll
+{
+font-weight: bold;
+margin-bottom: 5px;
+font-size: 11px;
+}
+.results-list-item .field
+{
+font-weight: normal;
+margin: 5px;
+font-size: 11px;
+}

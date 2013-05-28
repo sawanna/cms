@@ -1,0 +1,71 @@
+form
+{
+margin: 0px;
+padding: 0px;
+}
+form .failed
+{
+border: 1px solid red;
+}
+form .checked
+{
+border: 1px solid green;
+}
+.autocheck_error
+{
+color: red;
+}
+.autocheck_checked
+{
+color: green;
+}
+.captcha
+{
+
+}
+input, select, button,  textarea, .captcha img#captcha_image
+{
+border: 1px solid #777777;
+}
+.captcha img#captcha_image
+{
+width: 150px;
+height: 40px;
+}
+.autocheck_loader
+{
+display:none;
+width: 16px;
+height: 16px;
+position:absolute;
+z-index:99999;
+background: url('loader.gif') no-repeat center;
+padding:0px;
+}
+.required
+{
+color: red;
+}
+input, button,  textarea
+{
+border-radius: 4px;
+-moz-border-radius: 4px;
+}
+input, select, textarea
+{
+background-color: #ffffff;
+font-family: Sans;
+color: #672404;
+line-height: 20px;
+}
+.colorwheel
+{
+position: relative;
+z-index:99;
+margin: 10px 0px;
+}
+#colorwheel
+{
+background-color: #ffffff;
+border: 1px dotted #000000;
+}

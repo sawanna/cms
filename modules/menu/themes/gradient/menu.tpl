@@ -1,0 +1,1 @@
+<div class="main-menu">[component]main-menu[/component]</div>

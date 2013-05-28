@@ -1,0 +1,121 @@
+ul.drop-down-menu-list
+{
+height: 59px;
+margin: -1px 10px 10px;
+padding: 0px;
+list-style: none;
+clear: both;
+z-index: 99999999;
+}
+ul.drop-down-menu-list li
+{
+float: left;
+margin: 0px 1px;
+height: auto;
+line-height: 59px;
+background-repeat: no-repeat;
+background-position: top left;
+cursor: pointer;
+white-space: nowrap;
+padding-left: 30px;
+}
+ul.drop-down-menu-list li a, ul.drop-down-menu-list li a:visited
+{
+display: block;
+height: 59px;
+line-height: 59px;
+margin: 0px;
+padding: 0px;
+color: #000000 !important;
+font-size: 16px;
+text-decoration: none;
+background-repeat: no-repeat;
+background-position: top right;
+padding-right: 30px;
+}
+* html ul.drop-down-menu-list li, * html ul.drop-down-menu-list a, * html ul.drop-down-menu-list li a:visited
+{
+color: #000000;
+width: 10px;
+}
+ul.drop-down-menu-list li.active, ul.drop-down-menu-list li.hover
+{
+background-repeat: no-repeat;
+background-position: bottom left;
+}
+ul.drop-down-menu-list li.active a.active, ul.drop-down-menu-list li.parent a.drop-down, ul.drop-down-menu-list li a.hover
+{
+color: #000000;
+text-decoration: none;
+background-repeat: no-repeat;
+background-position: bottom right;
+}
+* html  ul.drop-down-menu-list li.hover a.hover
+{
+color: #000000;
+text-decoration: none;
+}
+ul.drop-down-menu-list li ul
+{
+position: absolute;
+z-index: 9999;
+list-style: none;
+display: none;
+border: 1px solid #dddddd;
+margin: 0px;
+padding: 10px 0px;
+width: 300px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+zoom: 1;
+}
+ul.drop-down-menu-list li ul li, ul.drop-down-menu-list li ul li.active, ul.drop-down-menu-list li ul li.hover
+{
+margin: 0px;
+padding-left: 10px;
+height: auto;
+line-height: 30px;
+background-image: none !important;
+border-bottom: 1px solid #999999;
+white-space: normal;
+vertical-align: bottom;
+float: none;
+display: block;
+}
+ul.drop-down-menu-list li ul li.hover
+{
+background-color: #ffffff;
+}
+ul.drop-down-menu-list li ul li a, ul.drop-down-menu-list li ul li a:visited, ul.drop-down-menu-list li ul li.active a.active, ul.drop-down-menu-list li ul li a.hover
+{
+display: block !important;
+width: 300px;
+overflow: hidden !important;
+height: auto;
+line-height: 30px;
+background: none !important;
+font-size: 12px;
+
+padding-left: 0px;
+padding-right: 10px;
+white-space: normal !important;
+}
+ul.drop-down-menu-list li ul li a.hover
+{
+background-color: #ffffff;
+}
+* html ul.drop-down-menu-list li ul li.hover a.hover
+{
+background: none;
+background-color: #ffffff;
+}
+* html ul.drop-down-menu-list ul li, * html ul.drop-down-menu-list ul a, * html ul.drop-down-menu-list ul li a:visited
+{
+width: 300px;
+}
+ul.drop-down-menu-list li ul li ul
+{
+zoom: 1;
+margin-left: 290px;
+margin-top: -40px;
+}

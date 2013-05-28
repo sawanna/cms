@@ -1,0 +1,105 @@
+.node-block
+{
+margin-bottom: 20px;
+}
+.node-block h1.node-title
+{
+margin: 0px 10px 10px 20px;
+font-size: 16px;
+font-weight: normal;
+font-style: italic;
+}
+.article h1.node-title
+{
+margin-right: 210px;
+}
+.node-block .node p
+{
+margin: 0px;
+}
+.node-block div#content-component
+{
+margin: 0px;
+}
+.node-block div#content-component h1, .node-block div#content-component h2, .node-block div#content-component h3, .node-block div#content-component h4, .node-block div#content-component h5, .node-block div#content-component h6
+{
+margin: 0px;
+}
+.node-block .node-date
+{
+font-size: 12px;
+margin: 0px 40px 10px 0px;
+}
+.node-block .node-date label
+{
+float: right;
+font-weight: normal;
+margin-right: 5px;
+}
+.node-block .node-date div
+{
+float: right;
+}
+.node-block .node-author
+{
+height: 20px;
+font-size: 12px;
+margin-top: 10px;
+margin-right: 40px;
+margin-bottom: 40px;
+}
+.node-block .node-author label
+{
+float: right;
+font-weight: normal;
+margin-right: 5px;
+}
+.node-block .node-author div
+{
+float: right;
+}
+.related-nodes
+{
+margin: 0px 20px;
+}
+.related-cap
+{
+font-size: 14px;
+font-style: italic;
+font-weight: normal;
+margin: 10px;
+}
+.related-nodes ul
+{
+list-style-type: circle;
+//margin-left:40px;
+}
+* html .related-nodes ul
+{
+margin-left:40px;
+}
+div#node-edit-links
+{
+position: absolute;
+right: 10px;
+cursor: pointer;
+margin-top: 30px;
+}
+ul#edit-links
+{
+display: none;
+position: absolute;
+right: 10px;
+margin: 0px;
+padding: 0px;
+margin-top: 60px;
+background-color: #ffffff;
+border: 1px solid #dddddd;
+list-style: none;
+}
+ul#edit-links li
+{
+height: 20px;
+line-height: 20px;
+padding: 4px;
+}

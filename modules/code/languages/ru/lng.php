@@ -1,0 +1,35 @@
+<?php
+defined('SAWANNA') or die();
+
+$phrases=array(
+'HTML widgets' => 'HTML виджеты',
+'Adds ability to create custom widgets with specified HTML content' => 'Добавляет возможность создавать пользовательские виджеты с указанным HTML содержимым',
+'Create custom widgets' => 'Создание пользовательских виджетов',
+'Create or edit custom widgets with HTML content' => 'Создание и редактирование пользовательских виджетов с HTML содержимым',
+'Invalid widget name' => 'Некорректное имя виджета',
+'Widget with such name already exists' => 'Виджет с указанным именем уже существует',
+'New widget' => 'Новый виджет',
+'Edit widget' => 'Редактирование виджета',
+'Content' => 'Материал',
+'Enter HTML code here' => 'Введите HTML код здесь',
+'Template' => 'Шаблон',
+'Choose widget template' => 'Выберите шаблон виджета',
+'Without template' => 'Без шаблона',
+'Title' => 'Заголовок',
+'Specify widget title in following language: %' => 'Укажите заголовок виджета на следующем языке: %',
+'Invalid widget ID: %' => 'Некорректный ID виджета: %',
+'Widget not found' => 'Виджет не найден',
+'HTML widget could not be saved' => 'Невозможно сохранить HTML виджет',
+'HTML widget saved' => 'HTML виджет сохранен',
+'HTML widget' => 'HTML виджет',
+'Could not delete HTML widget. Database error' => 'Невозможно удалить HTML виджет. Ошибка базы данных',
+'HTML widget with ID: % deleted' => 'HTML виджет с ID: % удален',
+'Widgets' => 'Виджеты',
+'Widget' => 'Виджет',
+'Delete' => 'Удалить',
+'Are you sure ?' => 'Вы уверены ?',
+'Edit' => 'Редактировать',
+'Language' => 'Язык',
+'Choose widget language' => 'Выберите язык виджета',
+'All languages' => 'Все языки'
+);
